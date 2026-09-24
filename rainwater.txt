@@ -1,0 +1,11 @@
+class rainwater {
+public static void main(String args[]) {
+rain="True";
+water="True";
+if( (rain.equals("True")) &&  (water.equals("False"))) {
+System.out.print("super");
+} else {
+System.out.print("not super");
+}
+}
+}
