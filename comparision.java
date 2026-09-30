@@ -1,20 +1,22 @@
+import java.lang.System;
 import java.util.Scanner;
-class Comparision {
-public static void main(String args[]) {
-Scanner scan = new Scanner(System.in);
-int a=scan.nextInt();
-if (a<=30) {
-System.out.print("ok");
-} else if (a<=50) {
-System.out.print("good");
-} else if (a<=80) {
-System.out.print("better");
-} else if (a<=90) {
-System.out.print("excellent");
-} else {
-System.out.print("invalid");
+
+class comparision {
+    public static void main(String args[])
+    {
+        Scanner scan = new Scanner(System.in);
+
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        if(num1==num2)
+        {
+            System.out.print("num1 is equal to num2");
+        }
+        else{
+            System.out.print("num1 is not equal to num2");
+        }
+        
+    }
+    
 }
 
-
-}
-}
